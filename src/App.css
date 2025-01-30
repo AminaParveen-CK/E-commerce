@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+}
+
+*:focus, *:active, *:hover {
+  outline: none !important;
+  box-shadow: none !important;
+}

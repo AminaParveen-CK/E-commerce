@@ -1,0 +1,35 @@
+.whole-navbar{
+    background:rgb(50, 9, 9) !important ;
+}
+.navbar-toggler {
+    background: rgb(69, 4, 4);
+}
+.search-container{
+    position: relative;
+    width: 300px;
+    margin-right:0px ;
+}
+.search-icon{
+    position: absolute;
+    top: 43%;
+    left: 42px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: beige;  
+}
+.search-control{
+    width: 80%;
+    padding: 10px 0px 10px 35px !important;
+    background-color: rgb(50, 9, 9) !important;
+    color: beige !important;
+    border-color: beige;
+}
+.search-control, .search-control:active{
+    border: 1px solid beige !important;
+}
+.search-control::placeholder{
+    color: beige !important;
+}
+.search-control:active{
+    background-color: rgb(50, 9, 9);
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Outfit:wght@100..900&family=Parkinsans:wght@300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+VN:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+.whole-banner-page{
+    width: 100%;
+    height: auto;
+    background-image: url(https://img.freepik.com/premium-photo/mens-women-cloth-shelf-store-shelf-clothes-podium-shelf-pastel-beige-colors-3d-render_576429-874.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner-data{
+    width: 50%;
+    color: white;
+    margin-left: auto;
+    padding: 5% 5% 10% 5%;
+}
+.banner-data span{
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+}
+.banner-data h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.banner-data h4{
+    font-size: 1.5rem;
+}
+.banner-data h6{
+    font-size: 1rem;
+}
+.banner-data h3{
+    font-size: 3rem;
+    color: rgb(91, 21, 21);
+}
+.shop-btn{
+    font-size: 1rem;
+    font-weight: 500;
+    color: beige;
+    border-radius: 1rem;
+    padding: 0.6rem 2rem;
+    margin-top: 2%;
+    background-color: rgb(91, 21, 21);
+    border-color: rgb(91, 21, 21);
+}
+.shop-btn:hover , .shop-btn:active , .shop-btn:focus{
+    background-color: rgb(92, 39, 39) !important;
+    border-color: burlywood !important;
+}
+
+@media (max-width: 768px) {
+    .banner-data span{
+        font-size: 2rem;
+    }
+    .banner-data h3{
+        font-size: 1.5rem;
+    }
+    .shop-btn{
+        padding: 0.4rem 1rem;
+        font-size: 0.5rem;
+    }
+    .banner-data h1{
+        font-size: 1.5rem;
+    }
+    .banner-data h4{
+        font-size: 0.9rem;
+    }
+    .banner-data h6{
+        font-size: 0.5rem;
+    }
+}

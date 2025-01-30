@@ -1,0 +1,98 @@
+.whole-login-page{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://www.shutterstock.com/image-photo/background-wall-bg-kitchen-studio-600nw-2282196699.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.login-container{
+    width: 85%;
+    height: 85vh;
+    margin: auto;
+}
+
+.login-page{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    border-radius: 1.5rem;
+    background:rgb(50, 9, 9) ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+ .login-img-part{
+    margin: auto;
+ }
+.login-img-part img{
+    width: 70%;
+    border-radius: 2rem;
+    margin: auto;
+    animation: turn 2s alternate;
+}
+@keyframes turn {
+    0%, 100% {
+     transform: translateX(0);
+    }
+    50% {
+     transform: translateX(100px);
+    }
+}
+.form-part-container{
+    margin: auto;
+}
+.form-part{
+    width: 100%;
+    margin: auto;
+}
+.form-part img{
+    width: 30%;
+    animation: slide 2s alternate;
+}
+@keyframes slide {
+    0%, 100% {
+     transform: translateY(0);
+    }
+    50% {
+     transform: translateY(40px);
+    }
+}
+
+.form-part h2{
+    color: beige;
+    font-weight: 600; 
+    font-size: 30;
+}
+.form-part p{
+    color:bisque;
+    font-size: smaller;
+}
+.login-form{
+    margin:  0% 0% 4% 0%;
+}
+.form-control{
+    width: 70%;
+    height: 2.8rem;
+    margin: auto;
+    margin-bottom: 4%;
+    background-color: beige !important;
+}
+.submit{
+    width: 50%;
+    margin: auto;
+    border-radius: 0.5rem;
+    background-color: rgb(60, 19, 19) !important;
+    color: beige;
+    border: 1px solid beige;
+    font-weight: bold;
+}
+.submit:hover{
+    background-color:beige !important;
+    color: rgb(91, 21, 21) ;
+}
+.register-btn{
+    width: 50%;
+    margin: 2% auto !important;
+}

@@ -1,0 +1,182 @@
+.whole-productspage{
+    margin: auto;
+    text-align: center;
+}
+.products-page{
+    width: 100%;
+    margin-top: 5%;
+    margin:  auto;
+}
+.product-cards{
+    margin: 1% ;
+    padding: 1%; 
+    border: none; 
+}
+.product-title{
+    font-weight: 400;
+}
+.product-img-section{
+    width: 100%;
+    height: 320px;
+    background-color: rgb(253, 250, 246);
+}
+.product-img{
+   height: 300px;
+   transition: 0.5s ease-in-out;
+
+}
+.product-img:hover{
+    height: 320px;
+}
+.top-rated{
+    background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA0L2pvYjE4MjktYmctYmItMzJhLmpwZw.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 70vh;
+    width: 100%;
+    color: white;
+}
+.top-rated-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 5%;
+    justify-content: center;
+}
+.top-rated h3{
+    padding: 2%;
+    color: beige;
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30;
+}
+.top-rated-cards{
+    padding: 16px;
+    background-color: rgb(253, 250, 246) !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: slideIn 9s linear infinite;
+}
+@keyframes slideIn {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+.top-rated-cards:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.top-rated-img {
+    width: 100%;
+    height: auto;
+    max-height: 230px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.addtocart-btn{
+    width: 50%;
+    margin: 1% auto;
+    color: beige;
+    background-color: rgb(91, 21, 21);
+    border-color: rgb(91, 21, 21);
+    padding: 2% 5%;
+    border-radius: 1rem;
+}
+.addtocart-btn:hover,
+.addtocart-btn:active,
+.addtocart-btn:focus{
+    background: none !important;
+    color: rgb(91, 21, 21) !important;
+    border: 1px solid rgb(91, 21, 21) !important;
+}
+.sort-select{
+    width: 25%;
+    margin: auto;
+    border:none !important;
+    border-radius: 0.5rem;
+    margin-top: 1%;
+}
+.custom-select {
+    background-color: rgb(253, 250, 246) !important; 
+    color:rgb(91, 21, 21) ;  
+    font-size: 16px;
+    padding: 10px;
+}
+.custom-select:focus {
+    background-color:  rgb(248, 242, 234);  
+    color: rgb(91, 21, 21);  
+    border: 2px solid rgb(91, 21, 21);  
+    outline: none;
+}
+.custom-select:hover {
+    background-color: rgb(248, 242, 234);  
+}
+.custom-select option {
+    background-color: rgb(253, 250, 246);
+}
+  
+.custom-select option:hover,.custom-select option:active {
+    background-color: none !important; 
+    color: white;
+}
+.pagination-container{
+    width: 100%;
+    background-image: url(https://www.shutterstock.com/image-photo/background-wall-bg-kitchen-studio-600nw-2282196699.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 2% 0%;
+}
+.pagination{
+    width: 25%;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .sort-select{
+        width: 50%;
+    }
+    .pagination{
+        width: 65%;
+    }
+    .top-rated-grid {
+      display: flex;
+      flex-wrap: nowrap; 
+      overflow-x: auto; 
+      gap: 5%; 
+      padding: 10px 0;
+    }
+  
+    .top-rated-cards {
+      flex: 0 0 auto; 
+      width: 200px; 
+    }
+  
+    .top-rated-img {
+      height: auto;
+      max-height: 180px;
+    }
+  
+    /* Optional: Hide scrollbar */
+    .top-rated-grid::-webkit-scrollbar {
+      display: none; /* Hides the scrollbar */
+    }
+    .top-rated-grid {
+      -ms-overflow-style: none; /* Hides scrollbar in IE/Edge */
+      scrollbar-width: none; /* Hides scrollbar in Firefox */
+    }
+  }
+  .top-rated-cards {
+    background-color: #fdfaf6;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .top-rated-cards:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }

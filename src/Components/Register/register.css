@@ -1,0 +1,25 @@
+.register-container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(https://img.pikbest.com/wp/202345/minimalist-aesthetic-beige-geometric-background-3d-rendered-aesthetics-for-product-display-podium_9616326.jpg!bw700);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: rgb(50, 9, 9);
+}
+.register-form{
+    width: 50%;
+    margin: auto;
+    padding: 2%;
+   color: beige;
+    background-color: rgb(50, 9, 9);
+    background-image: url(https://w0.peakpx.com/wallpaper/291/424/HD-wallpaper-plain-chocolate-brown-background-brown-aesthetic-thumbnail.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 1px solid rgb(50, 9, 9);
+    border-radius: 2rem;
+}
+.register-form-control{
+    border: 1px solid rgb(50, 9, 9);
+}
