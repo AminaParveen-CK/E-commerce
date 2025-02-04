@@ -68,7 +68,7 @@ const Login = () => {
 
                <div className='register-btn row m-3'>
                 <p>Are you a new user ? </p> 
-                  <Link to={'/register'} style={{color:'beige',fontWeight:'400px',margin:'0% 1%'}}> Register here</Link>
+                  <Link to={'/register'} style={{color:'white',fontWeight:'400px',margin:'0% 1%'}}> Register here</Link>
                </div>
 
               </form>

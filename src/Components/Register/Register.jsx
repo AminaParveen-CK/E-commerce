@@ -61,7 +61,7 @@ const Register = () => {
             <button type='submit' className='btn submit'>Sign Up</button>
         </div>
         <div>
-            <p>Already registered ?</p> <Link to={'/login'} style={{color:'rgb(60, 19, 19)',fontWeight:'700',textDecoration:'none'}}> Login</Link>
+            <p>Already registered ?</p> <Link to={'/login'} style={{color:'beige',fontWeight:'700',fontSize:'1rem',textDecoration:'none'}}> Login</Link>
         </div>
       </form>
     </div>

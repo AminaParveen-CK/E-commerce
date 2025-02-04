@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext } from 'react'
 import { Samplecontext } from '../../App';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
@@ -7,7 +7,6 @@ import './cart.css';
 const Cart = () => {
 
   const {cartCount,setcartCount,cartItem,setcartItem} = useContext(Samplecontext);
-  const [quantity, setquantity] = useState({})
 
   const totalPrice = cartItem.reduce((total, item) => total + item.price * item.quantity, 0);
 
@@ -58,21 +57,12 @@ const Cart = () => {
               return(
               
               <Card className='cart-card'>
-                <div className='d-flex '>
-                  <img 
-                    src={item.images[0]} 
-                    alt="product image" 
-                    style={{
-                        width:'30%',
-                        marginRight:'auto',
-                        backgroundColor:'rgb(248, 242, 234)' 
-                    }} 
-                  />
+                <div className='card-item d-flex '>
+                  <img src={item.images[0]} alt="product" />
                   <Card.Body className='cart-card-body'>
                     <Card.Title>{item?.title}</Card.Title>
                     ${item?.price} <br />
-                    Quantity  
-                      
+                    Quantity    
                     <div className='quantity d-flex'>
                       <button onClick={()=>qtyminus(item.id)}>-</button>
                        {item.quantity} 

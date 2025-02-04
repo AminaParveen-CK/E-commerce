@@ -12,7 +12,7 @@
     width: 50%;
     margin: auto;
     padding: 2%;
-   color: beige;
+    color: beige;
     background-color: rgb(50, 9, 9);
     background-image: url(https://w0.peakpx.com/wallpaper/291/424/HD-wallpaper-plain-chocolate-brown-background-brown-aesthetic-thumbnail.jpg);
     background-size: 100% 100%;
@@ -22,4 +22,9 @@
 }
 .register-form-control{
     border: 1px solid rgb(50, 9, 9);
+}
+@media (max-width: 768px) {
+    .register-form{
+        width: 75%;
+    }
 }

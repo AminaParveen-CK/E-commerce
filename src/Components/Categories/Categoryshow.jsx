@@ -2,14 +2,12 @@ import React, { useContext } from 'react'
 import { Samplecontext } from '../../App'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Rating from '@mui/material/Rating';
 import { toast } from 'react-toastify';
 
 const Categoryshow = () => {
-    const {allProducts,setallProducts,setcategorySelected,filteredProducts,setfilteredProducts,setproductId,setproductPrice,cartCount,setcartCount,cartItem,setcartItem} = useContext(Samplecontext)
-    
-    const navigate = useNavigate()
+    const {filteredProducts,setproductId,setproductPrice,cartCount,setcartCount,cartItem,setcartItem} = useContext(Samplecontext)
 
     // ======Add to cart ======
     const addToCart = (product)=>{
@@ -37,7 +35,7 @@ const Categoryshow = () => {
 
   return (
     <div className="whole-productspage">
-     <div className='products-page row'>
+     <div className='products-page row justify-content-center'>
        
       {filteredProducts?.map((item)=>{
         return(

@@ -13,6 +13,7 @@
 }
 .full-part{
     margin: auto;
+    padding-bottom: 5%;
 }
 .left-part{
     width: 70%;
@@ -30,6 +31,11 @@
     border: none;
     margin: 1% 0%;
 }
+.card-item img{
+    width: 30%;
+    margin-right: auto;
+    background-color: rgb(248, 242, 234);
+}
 .cart-card-body{
     background-color:rgb(248, 242, 234) ;
 }
@@ -45,6 +51,7 @@
 .quantity button{
     border: none;
     background: none;
+    color: black !important;
 }
 .right-part{
     width: 25%;
@@ -91,11 +98,15 @@
     }
     .right-part{
         width: 100%;
+        text-align: center;
     }
     .left-part{
         width: 100%;
     }
     .quantity{
-        width: 30%;
+        width: 45%;
+    }
+    .card-item img{
+        width: 50%;
     }
   }
